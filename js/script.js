@@ -1,6 +1,5 @@
  
 $("#ButtonPost").click( function(e){
-    console.log("Yes");
     e.preventDefault();
     
     var to_do = $("#todoText").val(); 
